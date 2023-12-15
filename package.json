@@ -1,0 +1,28 @@
+{
+  "name": "d6_autenticazione",
+  "version": "1.0.0",
+  "description": "- [Express](#express)   - [Inizializzazione](#middleware-di-errore-più-complesso-con-spunti-interessanti)   - [Routing](#cose-utili-per-il-routing)   - [Tenere traccia delle rotte](#tenere-traccia-delle-rotte)   - [Middlewares](#middlewares)   - [Pagination](#pagination)   - [Multer e upload file](#importare-file-con-multer)   - [CDN](#cdn-content-delivery-network)   - [Cloudinary](#cloudinary)   - [Autenticazione](#autenticazione) - [MongoDB Atlas](#mongodb-atlas)   - [Queries](#queries)   - [Queries su MDB Compass](#utilizzo-queries-su-mongodb-compass)   - [Selettori](#lista-dei-possibili-query-selectors) - [Mongoose (con Express)](#mongoose-con-express)   - [index.js](#collegarsi-al-db-tramite-mongoose-indexjs)   - [Esempi CRUD](#esempi-crud)   - [Schemi e modelli](#schemi-e-modelli)   - [Embedding e referencing](#incosistenza-tra-dati-embedding-e-riferimenti)   - [Variabili d'ambiente](#utilizzo-variabili-dambiente) - [Altro](#altro)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TommyJk99/D6_autenticazione.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TommyJk99/D6_autenticazione/issues"
+  },
+  "homepage": "https://github.com/TommyJk99/D6_autenticazione#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  }
+}

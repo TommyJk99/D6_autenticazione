@@ -1327,3 +1327,5 @@ dotenv.config();
 - https://picsum.photos/ foto a caso
 - https://randomuser.me/ API per utenti a caso (json)
 - https://app.tuta.com/login Tutanota GmbH è un fornitore di posta elettronica cifrata.
+- https://www.md5hashgenerator.com/ generatore di Hash
+- https://www.iubenda.com/ generatore di documenti per privacy, cookie etc.
