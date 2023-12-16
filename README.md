@@ -1349,3 +1349,5 @@ dotenv.config()
 -   https://app.tuta.com/login Tutanota GmbH è un fornitore di posta elettronica cifrata.
 -   https://www.md5hashgenerator.com/ generatore di Hash
 -   https://www.iubenda.com/ generatore di documenti per privacy, cookie etc.
+-   https://jwt.io/ per decodificare Token
+-   `openssl rand -hex 64`

@@ -17,6 +17,7 @@ usersRouter
             next(err)
         }
     })
+    //AUTENTICAZIONE Authentication
     .post("/session", async (req, res) => {
         //come mai post? scrivere su appunti
         //servirà il token

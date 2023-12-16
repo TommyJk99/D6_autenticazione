@@ -11,6 +11,7 @@ app.get("/health", (req, res) => {
 })
 
 app.use("/users", usersRouter)
+app.use(jwtTest)
 
 const port = process.env.PORT || 3030
 
